@@ -1,0 +1,40 @@
+[{
+    "id": 1,
+    "status": "UP",
+    "hostname": "",
+    "os": "linux",
+    "platform": "ubuntu",
+    "checked_at": "Sun, 22 Jan 2026 22:29:16 CET"
+},
+{
+    "id": 2,
+    "status": "UP",
+    "hostname": "",
+    "os": "linux",
+    "platform": "ubuntu",
+    "checked_at": "Sun, 22 Jan 2026 22:29:16 CET"
+},
+{
+    "id": 3,
+    "status": "UP",
+    "hostname": "",
+    "os": "linux",
+    "platform": "ubuntu",
+    "checked_at": "Sun, 22 Jan 2026 22:29:16 CET"
+},
+{
+    "id": 4,
+    "status": "UP",
+    "hostname": "",
+    "os": "linux",
+    "platform": "ubuntu",
+    "checked_at": "Sun, 22 Jan 2026 22:29:16 CET"
+},
+{
+    "id": 5,
+    "status": "UP",
+    "hostname": "",
+    "os": "linux",
+    "platform": "ubuntu",
+    "checked_at": "Sun, 22 Jan 2026 22:29:16 CET"
+}]

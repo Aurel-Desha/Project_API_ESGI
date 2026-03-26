@@ -1,0 +1,42 @@
+[{
+  "id": 1,
+  "name": "server1",
+  "health": [],
+  "cpu": [],
+  "memory": [],
+  "disk": []
+},
+{
+  "id": 2,
+  "name": "server2",
+  "health": [],
+  "cpu": [],
+  "memory": [],
+  "disk": []
+},
+{
+  "id": 3,
+  "name": "server3",
+  "health": [],
+  "cpu": [],
+  "memory": [],
+  "disk": []
+},
+{
+  "id": 4,
+  "name": "server4",
+  "health": [],
+  "cpu": [],
+  "memory": [],
+  "disk": []
+},
+{
+  "id": 5,
+  "name": "server5",
+  "health": [],
+  "cpu": [],
+  "memory": [],
+  "disk": []
+}
+]
+
