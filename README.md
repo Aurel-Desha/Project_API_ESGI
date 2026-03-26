@@ -1,15 +1,15 @@
-* PREREQUIS 
+## PREREQUIS 
 
-* * - Installation de Python
-* * - Installation des module avec la commande pip install -r requirements.txt
-        fastapi : Créer une API rapidement (routes, endpoints, JSON)
-        uvicorn : Serveur qui lance notre app FastAPI
-        psutil  : Récupérer les information du système (CPU, RAM, disque, etc.)
-        requests: Faire des appels HTTP (GET, POST…)
-        python-dotenv: Charger les variables depuis un fichier .env
+*  Installation de Python
+*  Installation des module avec la commande pip install -r requirements.txt
+    *   fastapi : Créer une API rapidement (routes, endpoints, JSON)
+    *   uvicorn : Serveur qui lance notre app FastAPI
+    *   psutil  : Récupérer les information du système (CPU, RAM, disque, etc.)
+    *   requests: Faire des appels HTTP (GET, POST…)
+    *   python-dotenv: Charger les variables depuis un fichier .env
 
 
-* Lancer l'appli: 
+## Lancer l'appli: 
 python -m uvicorn app.main:app --reload
 
 * ARCHITECTURE 
