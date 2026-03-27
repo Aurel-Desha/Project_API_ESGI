@@ -39,7 +39,7 @@ def get_cpu_info():
 #Memory
 def get_memory_info():
     try:
-        memory: psutil.virtual_memory()
+        memory = psutil.virtual_memory()
 
         return {
             "total_gb": round(memory.total / (1024**3)),
@@ -51,6 +51,22 @@ def get_memory_info():
     except Exception:
         raise Exception("Impossible d'afficher la memoire")
 
+
+#Disk
+def get_disk_info():
+    try:
+        disk = psutil.disk_usage('/')
+        return {
+            "total_gb": round(disk.total / (1024**3)),
+            "used_gb": round(disk.used / (1024**3)),
+            "free_gb": round(disk.free / (1024**3)),
+            "used_percent": disk.percent,
+            "checked_at": get_current_time()
+        }
+    except Exception as e:
+        raise Exception(str(e), "erreur")
+        
+
 # ALL
 def get_all_metrics():
     try:
@@ -58,7 +74,6 @@ def get_all_metrics():
             "host_info": get_health_info(),
             "cpu_info": get_cpu_info(),
             "memory_info": get_memory_info(),
-            "disk_info": get_disk_info()
         }
     except Exception:
         raise Exception("Impossible d'afficher tous les metrics")
